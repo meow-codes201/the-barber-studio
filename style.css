@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+:root {
+  --main-color: #37132d;
+  --main-font: "Playfair Display", serif;
+  --second-font: "Roboto", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background: #000; */
+  padding: 30px;
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  margin: 10px;
+  color: black;
+  font-family: var(--second-font);
+}
+.cc-ctr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.hdr-cc {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+.hdng {
+  font-size: 4rem;
+  font-family: var(--main-font);
+}
+.sub-hdng {
+  width: 70%;
+  font-family: var(--second-font);
+  color: rgb(82, 82, 82);
+  margin: 20px 0;
+}
+
+.main-btn {
+  padding: 10px 20px;
+  text-decoration: none;
+  background: var(--main-color);
+  color: white;
+}
+.hdr-img-ctr {
+  width: 30%;
+  height: 50vh;
+  position: relative;
+}
+.hdr-img {
+  width: 200px;
+  height: 300px;
+}
+.img-left {
+  position: absolute;
+  left: 10rem;
+}
+.img-right {
+  position: absolute;
+  left: 3rem;
+  top: 8rem;
+}
+
+.exp {
+  height: 90vh;
+  margin: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+.exp-cc {
+}
+.gray-hdng {
+  color: goldenrod;
+  font-family: var(--main-font);
+}
+.exp-hdng {
+}
+.exp-img {
+  background: url("barber.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 350px;
+  margin-left: 50px;
+}
+.btn-ctr {
+  margin-top: 30px;
+}
+
+.socials {
+  margin: 5rem;
+}
+.sm-ctr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10rem;
+}
+.follow {
+  padding: 20px;
+  background: var(--main-color);
+  color: white;
+  font-family: var(--second-font);
+  margin-right: 3rem;
+  text-align: center;
+}
+
+.li-items {
+}
