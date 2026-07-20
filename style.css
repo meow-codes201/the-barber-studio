@@ -86,13 +86,10 @@ ul li a {
   align-items: center;
   margin-top: 10rem;
 }
-.exp-cc {
-}
+
 .gray-hdng {
   color: goldenrod;
   font-family: var(--main-font);
-}
-.exp-hdng {
 }
 .exp-img {
   background: url("barber.jpg");
@@ -125,9 +122,6 @@ ul li a {
   text-align: center;
 }
 
-/* .li-items {
-} */
-
 .hero {
   height: 100vh;
   display: flex;
@@ -151,8 +145,7 @@ ul li a {
 .hero-cc {
   margin-left: 6rem;
 }
-.hero-hdng {
-}
+
 .hero-sub {
   width: 400px;
 }
